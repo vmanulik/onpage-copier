@@ -1,0 +1,16 @@
+{
+	"manifest_version": 2,
+
+	"name": "doroga.ua-copier",
+	"description": "Copy geolocation and name from doroga.ua page",
+	"version": "1.0",
+	"background": {
+        "scripts": ["background.js"]
+	},
+
+	"permissions": ["clipboardWrite", "activeTab"],
+	"browser_action": {
+		"default_icon": "images/icon.png",
+		"default_title": "Copy location, then title"
+	}
+}
