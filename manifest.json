@@ -5,7 +5,7 @@
 	"description": "Copy geolocation and name from doroga.ua page",
 	"version": "1.0",
 	
-	"permissions": ["clipboardWrite", "activeTab"],
+	"permissions": ["activeTab", "storage", "clipboardWrite"],
 	
 	"background": {
         "scripts": ["background.js"]
