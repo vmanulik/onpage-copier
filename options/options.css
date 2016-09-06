@@ -23,6 +23,8 @@ a:hover {
 
 label {
 	padding-left: 5px;
+	top: -3px;
+    position: relative;
 }
 
 .clear {
@@ -79,6 +81,7 @@ label {
 /* sections */
 
 .section-wrapper {
+	padding-top: 15px;
 	min-height: 60px;
 	border-top: 1px solid #DADADA;
 }
@@ -90,7 +93,7 @@ label {
 
 .section-wrapper h3{
 	float:left;
-	line-height: 60px;
+    margin-top: 5px;
 	width: 215px;
 }
 
@@ -115,10 +118,6 @@ label {
 
 #ril-keyboard-shortcut li {
 	line-height: 30px;
-}
-
-#ril-keyboard-shortcut ul li:first-child {
-	padding-top: 15px;
 }
 
 #ril-keyboard-shortcut input:focus {
@@ -151,6 +150,7 @@ label {
 	outline: none;
 	margin-bottom: 0.667em;
 	margin-top: 0.5em;
+	box-sizing: border-box;
 	padding: 1em 1.5em;
 }
 
